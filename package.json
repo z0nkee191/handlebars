@@ -1,0 +1,21 @@
+{
+  "name": "vite-handlebars-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "vite": "^8.3.6",
+    "vite-plugin-handlebars": "^2.0.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.10"
+  }
+}
