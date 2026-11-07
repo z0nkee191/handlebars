@@ -1,0 +1,9 @@
+<ul class="product-list">
+  {{#each products}}
+    <li class="product-card" data-id="{{id}}">
+      <h2 class="product-name">{{name}}</h2>
+      <p class="product-description">{{description}}</p>
+      <p class="product-price">Price: <strong>${{price}}</strong></p>
+    </li>
+  {{/each}}
+</ul>
